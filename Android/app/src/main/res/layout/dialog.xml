@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="600dp"
+    android:background="#D3EFC2">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/innerPicID"
+                android:layout_width="360dp"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <LinearLayout
+                android:id="@+id/innerLH1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView1"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="編號"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerIDID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView2"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="性別"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerSexID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="男生"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView3"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="體型"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerSizeID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView4"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="絕育"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerSterilizationID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView5"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="疫苗"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerBacterinID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView6"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="動物狀態"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerStatusID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView7"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="建立時間"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerCreateTimeID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView8"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="更新時間"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerUpdateTimeID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:background="@drawable/right_text_view"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView9"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="領養單位"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerShelterID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/right_text_view"
+                    android:drawableRight="@drawable/location_30"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:onClick="clickShelter"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView10"
+                    android:layout_width="125dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="領養地址"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerAddressID"
+                    android:layout_width="235dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/right_text_view"
+                    android:drawableRight="@drawable/location_30"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:onClick="clickAddress"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/innerLH11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/innerTextView11"
+                    android:layout_width="125dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="left"
+                    android:background="@drawable/left_text_view"
+                    android:gravity="center"
+                    android:text="電話"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/innerTelID"
+                    android:layout_width="235dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="right"
+                    android:background="@drawable/right_text_view"
+                    android:drawableRight="@drawable/phone_30"
+                    android:gravity="center"
+                    android:hint="000000"
+                    android:onClick="clickCall"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

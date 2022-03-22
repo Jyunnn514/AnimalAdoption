@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal_background"
+    tools:context=".ElseActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/toolbar_brown"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@drawable/house2"
+            android:onClick="startPageClick"
+            android:padding="6dp"
+            android:text="首頁" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@drawable/dog2"
+            android:onClick="dogPageClick"
+            android:padding="6dp"
+            android:text="狗狗" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@drawable/cat2"
+            android:onClick="catPageClick"
+            android:padding="6dp"
+            android:text="貓咪" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@drawable/paw"
+            android:onClick="elsePageClick"
+            android:padding="6dp"
+            android:text="其他" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:drawableTop="@drawable/bowl2"
+            android:onClick="accountPageClick"
+            android:padding="6dp"
+            android:text="會員" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar_brown"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="領養準備"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar3"
+        app:layout_constraintEnd_toEndOf="@+id/toolbar3"
+        app:layout_constraintStart_toStartOf="@+id/toolbar3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar3" />
+
+    <ScrollView
+        android:layout_width="382dp"
+        android:layout_height="487dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      決定跟毛小孩相伴終生是簡單的決定嗎？相信這一點也不容易！"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="領養貓狗的事前準備"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1、​擁有時間、空間和經濟能力"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      在領養貓狗前，必須先確定是否有合適的飼養環境、陪伴與照顧時間，以及經濟上可否負擔？   儘管貓狗只有十幾年的壽命，但對他們的飼養責任應該至始至終！     先說每個月基本可能要支出的項目，包括飼料、美容、保健品、寵物玩具或寵物保險，甚至是昂貴的醫療費用等等。     這些全部加總起來，預估每年養寵物花費約數萬元以上，其他更不說的，就是你的愛與陪伴了。     除此之外，同住家人是否同意，這也是很重要的考量，能避免家庭因素而中途棄養。   而且，若是工作太忙、出國或沒辦法每天帶狗狗散步，家人至少可以幫忙照顧。     另外，如果是自住租屋的話，除了要考量空間大小外，更要經過房東同意養寵物，才不會讓寵物生活在不穩定的環境下。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2、決定適合領養的浪浪"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      不管是誰看到那些萌呆可愛的小毛球都很難抵抗，所以大家特別喜歡領養幼仔。   但如果你是完全沒有飼養經驗、也沒有家人可幫忙照顧，相較於領養幼仔，建議領養成貓、犬會更加適合！     事實上，飼養幼仔需要花費更多心力照顧，除了要注意飲食、醫療方面外，幼仔的性情比較不穩定。     可能容易分離焦慮、隨地大小便、亂咬東西等等，因此飼養上要很有耐心，也要多花時間訓練教養和行為。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3、了解如何飼養和照顧"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      領養寵物雖然具備基本條件並完成領養程序後，就能順利帶浪浪回新家。   但往後日子該如何照顧牠們，這是飼主們要事先做好的功課。     例如領養小型犬幼犬不能吃什麼？養大狗狗要注意哪些方面的預防保健？   怎麼處理貓狗身上的寄生蟲等等，各種關於貓狗照顧知識都要多多了解。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="領養貓狗條件和程序"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="一、符合領養貓狗條件"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    1. 已滿20歲的領養年紀，並獲得同住家人的支持與同意"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    2. 具有經濟能力，穩定的居住環境、足夠的飼養空間。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    3. 有耐心願意花時間瞭解並好好照顧貓狗的人。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    4. 同意給貓狗結紮，並定期施打預防性注射。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    5. 簽訂認養切結書，並同意後續追蹤及訪問探視。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="二、領養貓狗程序6步驟"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    1. 跟浪浪第一次接觸互動。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    2. 現場辦理認養手續，或線上申請預約領養。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    3. 新飼主證件核對及條件評估。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    4. 動物健康檢查後，免費植入晶片、寵物登記及施打狂犬病疫苗。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    5. 接收領養諮詢與協助等服務。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    6. 完成認領養手續，帶毛孩回新家。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="領養貓狗時該注意的事"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1、了解浪浪的身體狀況"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      領養浪浪前，請務必主動致電詢問或到現場了解清楚貓狗的身體狀況。   例如年齡、性別、是否已結紮或接種疫苗、有無先天及後天疾病等等，通常照顧者或送養人都會如實告知。     若貓狗本身有疾病狀況，同時可請教送養人在照顧方面須注意的地方，並多多學習相關的照護知識，讓自己更快上手。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2、實際接觸浪浪熟悉彼此"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      每隻毛小孩都有不同的個性、脾氣，例如年輕幼仔比較活潑亂跳、愛玩，七歲以上的成貓、犬則沉穩許多。     若是碰到精力旺盛的貓狗，那就要花更多的時間陪牠玩、帶牠去運動消耗精力，否則你要有心理準備家裡被大搞破壞喔！     所以領養前，先去實際跟浪浪多互動接觸，彼此熟悉一段時間。   確定狗狗的性情、習慣、活動力等等一切常態行為，都是你能夠接受也可掌控的，那再提出領養申請也沒關係。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3、拒絕並檢舉「假領養」"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      網路社群資訊多使領養浪浪的各種管道通暢，不少認養人都透過網絡跟送養人領養貓狗。   而網路方便雖然對於領養率有很大幫助，同樣是免費且手續更簡單，但背後也隱藏了很多的領養問題。     這當中可能存有不肖者假借領養之名，進而從事金錢的交易買賣。   又或者領養貓狗回家後，卻根本不搭理和照顧牠們，甚至曾出現領養浪浪來虐待動物的卑劣行徑。     由此可見，嚴格的領養程序有多麼重要了！   不管對於送養者、認養人與浪浪們來說，都會形成如同蝴蝶效應般的保護作用。     不過，儘管一般領養貓狗是免費的，但有時候直接跟個人接洽領養時，送養人有可能徵求你分擔一些飼料費、醫療費等等。     若在可以接受的合理範圍內，也可算是人之常情。   可是，提醒認養人在幫忙支出費用時，要請對方出示費用收據，讓自己多一份心安。     除此之外，如果送養人無故向你收取不明的費用，很可能是濫用你的愛心，方便圖利。   這時候，你不但可以直接拒絕，同時也能幫忙打電話給動保機關檢舉，防止再有其他人受害。"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4、同意嚴格的領養程序"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      領養浪浪是一件很美好的事，但我們更希望不要再有受虐的浪浪，虐待動物真的不僅僅只虐待動物。   當越多人越重視動物保護，才能減少更多悲劇的發生。     事實上，流浪動物之家、動保團體、浪浪協會或有專門負責人的中途之家等地方，會是領養動物的最佳選擇。     但這並不是指個人送養就有問題，只是相較來說，收容所裡負責照顧浪浪的義工們，各個身經百戰、擁有不少照護經驗。   包括如何照料幼仔、受虐貓犬，以及如何替老犬復健、做好絕育和預防注射等等。     沒有經驗的新手領養後，若有任何問題都能向義工們詢問。   同時這些機構也具備堅強的關懷系統，能夠確保領養的雙方與浪浪受到完整的保障。"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
