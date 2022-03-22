@@ -15,3 +15,5 @@
 
 ## MySQL
 使用 MySql 當作資料庫來儲存會員資料。  
+
+![image](https://github.com/Jyunnn514/AnimalAdoption/blob/main/SQL.png)
